@@ -12,4 +12,3 @@ scikit-learn
 
 # Install cmd
 # pip install -r requirements.txt
-
