@@ -38,5 +38,5 @@ df = pd.read_csv("data/raw/data.csv")               # Load CSV Data
 missing = df.isnull().sum()     # Store all null Value in Variable
 print(missing[missing > 0])
 
-# missing_percent = (df.isnull().mean() * 100).round(2)
-# print(missing_percent[missing_percent > 0])
+missing_percent = (df.isnull().mean() * 100).round(2)       # Store Missing Percentage
+print(missing_percent[missing_percent > 0])
