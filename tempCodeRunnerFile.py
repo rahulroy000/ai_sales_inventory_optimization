@@ -1,1 +1,0 @@
-print("Columns:", df.shape[1])
