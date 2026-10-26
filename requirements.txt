@@ -1,0 +1,14 @@
+
+# Data manipulation and numerical computing
+pandas
+numpy
+
+# Data visualization
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+
+# Install cmd
+# pip install -r requirements.txt

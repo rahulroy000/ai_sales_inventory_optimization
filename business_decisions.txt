@@ -1,0 +1,81 @@
+1 Which products and categories generate the most revenue and profit?
+
+    - Visualization: Ranked bar chart, Pareto chart.
+    - Business decision: Identify top-performing products and categories and understand their contribution to business profitability.
+
+2 How do sales and units sold change over time?
+
+    - Visualization: Monthly revenue and units-sold line charts.
+    - Business decision: Identify growth trends, seasonal patterns, and sales declines.
+
+3 Which products have high demand but low stock?
+
+    - Visualization: Demand-versus-stock scatter plot.
+    - Business decision: Identify products that may need urgent replenishment.
+
+4 Which products are below their reorder level?
+
+    - Visualization: Stock-risk bar chart and product table.
+- Business decision: Prioritize products at risk of stockouts.
+
+5 Which platforms perform best?
+
+    - Visualization: Revenue and units-sold comparison charts.
+    - Business decision: Understand sales-channel performance.
+
+6 How are discounts associated with sales and profit margins?
+
+    - Visualization: Discount-versus-sales scatter plot, discount-band comparison, and margin analysis.
+    - Business decision: Evaluate discount effectiveness and its relationship with sales volume and profitability.
+
+7 Which suppliers and logistics partners have longer or more variable delivery times?
+
+    - Visualization: Histogram, box plot, and ranked delivery-time bar chart.
+    - Business decision: Identify supply-chain delays and partners requiring investigation.
+
+8 Which categories or products have the most unstable demand?
+
+    - Visualization: Demand variability chart and product demand time series.
+    - Business decision: Identify products requiring closer forecasting and inventory control.
+
+9 What quantity should we order for each product?
+
+    - Analysis: Demand forecasting, reorder-point calculation, and safety-stock assessment.
+    - Visualization: Forecast and reorder-point chart, recommended-order table.
+    - Business decision: Recommend replenishment quantities while accounting for lead times, current stock, and minimum order quantities.
+
+10 How accurate are our sales forecasts?
+
+    - Visualization: Actual-versus-predicted line chart and forecast error comparison.
+    - Metrics: MAE, RMSE, and WAPE where appropriate.
+    - Business decision: Determine whether forecasts are reliable enough to support inventory decisions.
+
+11 Which states have the highest product demand?
+
+    - Visualization: Ranked bar chart.
+    - Business decision: Identify high-demand geographic markets and potential distribution priorities.
+
+12 Which weekday and product-category combinations generate the most sales?
+
+    - Visualization: Weekday-versus-category heatmap.
+    - Business decision: Identify weekly sales patterns to support staffing, promotions, and inventory planning.
+
+13 Which numeric variables are related to one another?
+
+    - Visualization: Correlation heatmap.
+    - Business decision: Identify relationships worth investigating further and potential features for forecasting models.
+
+14 Which individual products generate the most revenue and units sold?
+
+    - Visualization: Ranked bar chart and Pareto chart.
+    - Business decision: Identify high-contribution products and prioritize product-level analysis.
+
+15 Which logistics partners have the highest order cancellation rates?
+
+    - Visualization: Ranked bar chart.
+    - Business decision: Identify logistics partners associated with frequent cancellations and investigate possible operational causes.
+
+16 Does shipping distance influence delivery time?
+
+    - Visualization: Scatter plot, optionally supplemented by a box plot of delivery time across distance bands.
+    - Business decision: Understand the relationship between shipping distance and delivery performance.
