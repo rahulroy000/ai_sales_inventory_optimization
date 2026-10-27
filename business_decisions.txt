@@ -1,19 +1,9 @@
-1. How do sales and units sold change over time?
+1. Monthly Units Sold by Product Category
 
-2. Which products have the most predictable or unstable demand?
+2. Monthly Revenue by Product Category
 
-3. How accurate are our sales forecasts? 
+3. Best-Selling Product in Each Category — Quantity
 
-4. Which products are below their reorder level? 
+4. Best-Selling Product in Each Category — Revenue
 
-5. What quantity should we order for each product? 
-
-6. How many days of demand can current inventory cover? 
-
-7. Which products are overstocked or at risk of becoming dead stock? 
-
-8. Which suppliers and logistics partners have longer delivery times? 
-
-9. How much do festive seasons affect product demand and revenue? 
-
-10. Which products are most important by revenue and how predictable is their demand? 
+5. School Backpack — Top 10 Warehouse Locations
