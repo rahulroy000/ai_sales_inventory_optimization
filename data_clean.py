@@ -103,8 +103,7 @@ df.loc[null_mask, 'lead_time_days'] = np.random.choice(
     size=null_count
 )
 
-# Count each unique value in the shipping_distance_km column
-print(df['shipping_distance_km'].value_counts())
+df.loc[:, df.isnull().any()].info()
 
 # Step 1: Get the top 5 most frequent shipping_distance_km  values
 top_5_shipping_distance_km  = df['shipping_distance_km'].value_counts().head(5).index.tolist()
@@ -141,7 +140,6 @@ string_columns = df.select_dtypes(
 # Remove extra spaces and standardize capitalization
 for column in string_columns:
     df[column] = df[column].str.strip().str.lower().str.capitalize()
-
 
 # 8. Save the cleaned dataset
 df.to_csv("data/processed/cleaned_data.csv", index=False)
