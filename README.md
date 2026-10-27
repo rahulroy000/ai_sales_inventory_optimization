@@ -8,7 +8,7 @@ Retail and supply chain teams need to know what sells, where it sells, how much 
 
 ## Dataset
 
-A 28-column order-level dataset (`data/raw/data.csv`) covering:
+A 30-column order-level dataset (`data/raw/data.csv`) covering:
 
 | Area | Columns (examples) |
 |---|---|
