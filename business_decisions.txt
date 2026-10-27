@@ -7,3 +7,13 @@
 4. Best-Selling Product in Each Category — Revenue
 
 5. School Backpack — Top 10 Warehouse Locations
+
+6. Purchase Order Quantity by Category
+
+7. Top 10 Products by Purchase Order Quantity
+
+8. School Backpack — Average Delivery Days by Logistics Partner
+
+9. School Backpack — Delivery Days Spread by Logistics Partner
+
+10. School Backpack — Logistics Partner Usage
