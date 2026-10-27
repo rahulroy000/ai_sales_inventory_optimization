@@ -110,4 +110,4 @@ Python · pandas · NumPy · Matplotlib · Seaborn · scikit-learn
 
 ## Author
 
-*Rahul Roy* · [LinkedIn](#https://www.linkedin.com/in/rahul-royy/) · [GitHub](#https://github.com/rahulroy000)
+*Rahul Roy* · [LinkedIn](https://www.linkedin.com/in/rahul-royy/) · [GitHub](https://github.com/rahulroy000)
