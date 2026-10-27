@@ -1,121 +1,19 @@
-1 Which products and categories generate the most revenue and profit?
+1. How do sales and units sold change over time?
 
-    - Visualization: Ranked bar chart, Pareto chart.
-    - Business decision: Identify top-performing products and categories and understand their contribution to business profitability.
+2. Which products have the most predictable or unstable demand?
 
-2 How do sales and units sold change over time?
+3. How accurate are our sales forecasts? 
 
-    - Visualization: Monthly revenue and units-sold line charts.
-    - Business decision: Identify growth trends, seasonal patterns, and sales declines.
+4. Which products are below their reorder level? 
 
-3 Which products have high demand but low stock?
+5. What quantity should we order for each product? 
 
-    - Visualization: Demand-versus-stock scatter plot.
-    - Business decision: Identify products that may need urgent replenishment.
+6. How many days of demand can current inventory cover? 
 
-4 Which products are below their reorder level?
+7. Which products are overstocked or at risk of becoming dead stock? 
 
-    - Visualization: Stock-risk bar chart and product table.
-- Business decision: Prioritize products at risk of stockouts.
+8. Which suppliers and logistics partners have longer delivery times? 
 
-5 Which platforms perform best?
+9. How much do festive seasons affect product demand and revenue? 
 
-    - Visualization: Revenue and units-sold comparison charts.
-    - Business decision: Understand sales-channel performance.
-
-6 How are discounts associated with sales and profit margins?
-
-    - Visualization: Discount-versus-sales scatter plot, discount-band comparison, and margin analysis.
-    - Business decision: Evaluate discount effectiveness and its relationship with sales volume and profitability.
-
-7 Which suppliers and logistics partners have longer or more variable delivery times?
-
-    - Visualization: Histogram, box plot, and ranked delivery-time bar chart.
-    - Business decision: Identify supply-chain delays and partners requiring investigation.
-
-8 Which categories or products have the most unstable demand?
-
-    - Visualization: Demand variability chart and product demand time series.
-    - Business decision: Identify products requiring closer forecasting and inventory control.
-
-9 What quantity should we order for each product?
-
-    - Analysis: Demand forecasting, reorder-point calculation, and safety-stock assessment.
-    - Visualization: Forecast and reorder-point chart, recommended-order table.
-    - Business decision: Recommend replenishment quantities while accounting for lead times, current stock, and minimum order quantities.
-
-10 How accurate are our sales forecasts?
-
-    - Visualization: Actual-versus-predicted line chart and forecast error comparison.
-    - Metrics: MAE, RMSE, and WAPE where appropriate.
-    - Business decision: Determine whether forecasts are reliable enough to support inventory decisions.
-
-11 Which states have the highest product demand?
-
-    - Visualization: Ranked bar chart.
-    - Business decision: Identify high-demand geographic markets and potential distribution priorities.
-
-12 Which weekday and product-category combinations generate the most sales?
-
-    - Visualization: Weekday-versus-category heatmap.
-    - Business decision: Identify weekly sales patterns to support staffing, promotions, and inventory planning.
-
-13 Which numeric variables are related to one another?
-
-    - Visualization: Correlation heatmap.
-    - Business decision: Identify relationships worth investigating further and potential features for forecasting models.
-
-14 Which individual products generate the most revenue and units sold?
-
-    - Visualization: Ranked bar chart and Pareto chart.
-    - Business decision: Identify high-contribution products and prioritize product-level analysis.
-
-15 Which logistics partners have the highest order cancellation rates?
-
-    - Visualization: Ranked bar chart.
-    - Business decision: Identify logistics partners associated with frequent cancellations and investigate possible operational causes.
-
-16 Does shipping distance influence delivery time?
-
-    - Visualization: Scatter plot, optionally supplemented by a box plot of delivery time across distance bands.
-    - Business decision: Understand the relationship between shipping distance and delivery performance.
-
-17 Which products are most important by revenue and how predictable is their demand? (ABC–XYZ classification)
-
-    - Analysis: Classify products by revenue contribution (ABC) and demand variability (XYZ), then combine the two classifications.
-    - Visualization: ABC–XYZ classification matrix and product-segment heatmap.
-    - Business decision: Define inventory policies for high-value, predictable products and high-value, volatile-demand products.
-
-18 Which products are overstocked or at risk of becoming dead stock?
-
-    - Analysis: Compare current stock with recent sales, forecast demand, and inventory age where available.
-    - Visualization: Overstock-risk bar chart, stock-versus-demand scatter plot, and product risk table.
-    - Business decision: Reduce excess inventory, limit unnecessary replenishment, and identify products that may require promotions or clearance.
-
-19 How many days of demand can current inventory cover for each product?
-
-    - Analysis: Calculate stock cover days using current stock and average daily demand.
-    - Visualization: Ranked stock-cover bar chart and inventory coverage table.
-    - Business decision: Identify products at risk of running out soon and prioritize replenishment based on demand and supplier lead times.
-
-20 Which warehouses or facilities have the best delivery performance and lowest logistics costs?
-
-    - Visualization: Warehouse performance comparison charts, delivery-time box plots, and logistics-cost rankings where cost data is available.
-    - Business decision: Identify efficient facilities and improve warehouse allocation and distribution planning.
-
-21 How much do festive seasons affect product demand and revenue?
-
-    - Analysis: Compare festive-period sales with comparable non-festive periods, accounting for year and product category where possible.
-    - Visualization: Festive-versus-non-festive sales charts and monthly seasonal trend lines.
-    - Business decision: Improve seasonal forecasting, promotional planning, and inventory preparation before major festivals.
-
-22 Which sales platforms generate the highest profit and profit margin?
-
-    - Visualization: Platform-wise revenue and profit comparison charts, plus a profit-margin ranking.
-    - Business decision: Identify the most profitable sales channels and allocate marketing and promotional budgets more effectively.
-
-23 How much does each purchase order cost, and how does order quantity relate to purchasing costs?
-
-    - Analysis: Examine purchase order costs, quantities, suppliers, and cost per unit where the required fields are available.
-    - Visualization: Purchase-order cost bar chart, order-quantity-versus-cost scatter plot, and supplier cost comparison.
-    - Business decision: Identify expensive purchasing patterns, compare supplier costs, and improve procurement planning.
+10. Which products are most important by revenue and how predictable is their demand? 
