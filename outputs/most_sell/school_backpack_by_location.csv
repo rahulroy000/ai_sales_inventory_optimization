@@ -1,0 +1,438 @@
+facility_type,warehouse_city,warehouse_state,quantity_sold,sales_revenue_inr
+Micro fulfilment centre,Patna,Bihar,350,2409701.79
+Dark store,Haridwar,Uttarakhand,340,3221775.19
+Dark store,Raipur,Chhattisgarh,332,2890898.56
+Dark store,Guwahati,Assam,314,2763402.2600000002
+Dark store,Warangal,Telangana,313,2256553.2
+Sortation centre,Guwahati,Assam,306,2674428.13
+Dark store,Hyderabad,Telangana,297,1844564.27
+Fulfilment centre,Bilaspur,Chhattisgarh,294,2328015.33
+Fulfilment centre,Haridwar,Uttarakhand,284,2114855.4299999997
+Dark store,Jamshedpur,Jharkhand,272,2311085.02
+Micro fulfilment centre,Bhopal,Madhya pradesh,257,1468866.81
+Dark store,Cuttack,Odisha,252,1259181.17
+Fulfilment centre,Guwahati,Assam,251,1753384.98
+Sortation centre,Dibrugarh,Assam,250,1068528.0899999999
+Sortation centre,Mumbai,Maharashtra,245,2695668.59
+Micro fulfilment centre,Gaya,Bihar,243,1944646.6
+Sortation centre,Cuttack,Odisha,237,1598798.94
+Seller warehouse,Dibrugarh,Assam,235,1652970.2400000002
+Sortation centre,Hyderabad,Telangana,233,1529756.5499999998
+Fulfilment centre,Rourkela,Odisha,232,2492382.07
+Sortation centre,Haridwar,Uttarakhand,231,2141000.99
+Dark store,Indore,Madhya pradesh,230,2547653.66
+Fulfilment centre,Shimla,Himachal pradesh,228,2532158.5300000003
+Returns centre,Vijayawada,Andhra pradesh,228,1503517.2599999998
+Dark store,Thiruvananthapuram,Kerala,222,1873675.19
+Sortation centre,Bilaspur,Chhattisgarh,221,1814438.73
+Fulfilment centre,Kozhikode,Kerala,219,1652514.81
+Micro fulfilment centre,Nagpur,Maharashtra,219,2449354.14
+Fulfilment centre,Amritsar,Punjab,211,1920205.8499999999
+Micro fulfilment centre,Tirupati,Andhra pradesh,208,1801971.5099999998
+Fulfilment centre,Panaji,Goa,202,1474876.27
+Dark store,Vijayawada,Andhra pradesh,202,1868609.0699999998
+Fulfilment centre,Nagpur,Maharashtra,199,1575902.99
+Sortation centre,Rohini,Delhi,195,2095098.08
+Dark store,Shimla,Himachal pradesh,194,1942727.75
+Sortation centre,Panaji,Goa,192,1156577.07
+Dark store,Chennai,Tamil nadu,189,1631243.26
+Dark store,Visakhapatnam,Andhra pradesh,188,870321.12
+Dark store,Bilaspur,Chhattisgarh,184,2130188.61
+Warehouse,Chennai,Tamil nadu,182,1043052.7100000001
+Sortation centre,Surat,Gujarat,177,1251999.95
+Dark store,Lucknow,Uttar pradesh,177,1360958.96
+Dark store,Kozhikode,Kerala,174,2133091.8
+Delivery station,Dehradun,Uttarakhand,173,1974823.7799999998
+Dark store,Baddi,Himachal pradesh,173,1534629.58
+Warehouse,Coimbatore,Tamil nadu,172,917545.37
+Micro fulfilment centre,Ranchi,Jharkhand,169,1861798.33
+Warehouse,Guwahati,Assam,168,1077469.08
+Micro fulfilment centre,Faridabad,Haryana,167,1762420.1400000001
+Fulfilment centre,Dwarka,Delhi,167,1764298.59
+Dark store,Kolkata,West bengal,166,1130807.05
+Seller warehouse,Rajkot,Gujarat,164,1301759.84
+Fulfilment centre,Gaya,Bihar,163,1346543.59
+Fulfilment centre,Mangaluru,Karnataka,162,1099099.33
+Fulfilment centre,Ranchi,Jharkhand,160,1392686.41
+Fulfilment centre,Mysuru,Karnataka,159,941728.05
+Sortation centre,Coimbatore,Tamil nadu,158,979655.9600000001
+Dark store,Dibrugarh,Assam,155,750024.05
+Micro fulfilment centre,Varanasi,Uttar pradesh,153,1178916.71
+Dark store,Jodhpur,Rajasthan,152,1966236.17
+Fulfilment centre,Jaipur,Rajasthan,152,813876.72
+Fulfilment centre,Bhopal,Madhya pradesh,152,1063902.5999999999
+Dark store,New delhi,Delhi,151,943231.6100000001
+Seller warehouse,Mysuru,Karnataka,151,1318300.5899999999
+Fulfilment centre,Dibrugarh,Assam,148,1291260.46
+Dark store,Howrah,West bengal,147,1531081.64
+Fulfilment centre,Kolkata,West bengal,147,1323316.53
+Sortation centre,Kozhikode,Kerala,146,1382317.1600000001
+Micro fulfilment centre,Haridwar,Uttarakhand,145,1390725.64
+Micro fulfilment centre,Jamshedpur,Jharkhand,145,1682784.37
+Sortation centre,Margao,Goa,145,659333.51
+Micro fulfilment centre,Bilaspur,Chhattisgarh,144,1050739.3599999999
+Dark store,Madurai,Tamil nadu,143,1643990.01
+Warehouse,Mangaluru,Karnataka,142,1436980.21
+Warehouse,Pune,Maharashtra,142,580445.88
+Sortation centre,Madurai,Tamil nadu,141,731638.92
+Fulfilment centre,Baddi,Himachal pradesh,141,1450938.33
+Sortation centre,Bhubaneswar,Odisha,141,1517308.6
+Micro fulfilment centre,Mohali,Punjab,140,1307353.39
+Dark store,Mohali,Punjab,139,1823404.0899999999
+Sortation centre,Indore,Madhya pradesh,139,1178024.67
+Distribution centre,Panipat,Haryana,138,1385318.2
+Seller warehouse,Guwahati,Assam,136,1754175.88
+Fulfilment centre,Tirupati,Andhra pradesh,136,848652.37
+Micro fulfilment centre,Pune,Maharashtra,136,1872990.3
+Sortation centre,Tirupati,Andhra pradesh,135,846490.8099999999
+Dark store,Ranchi,Jharkhand,134,961176.26
+Dark store,Gaya,Bihar,134,1412068.2699999998
+Micro fulfilment centre,Rohini,Delhi,133,772855.03
+Warehouse,Dwarka,Delhi,131,1216948.21
+Fulfilment centre,Margao,Goa,130,1354523.56
+Dark store,Thane,Maharashtra,129,1952369.47
+Fulfilment centre,Rohini,Delhi,129,607111.17
+Micro fulfilment centre,Jabalpur,Madhya pradesh,129,795767.03
+Seller warehouse,Warangal,Telangana,129,1072207.22
+Fulfilment centre,Warangal,Telangana,129,1464593.69
+Micro fulfilment centre,Thane,Maharashtra,128,2355287.34
+Micro fulfilment centre,Guwahati,Assam,128,1507388.22
+Sortation centre,Nashik,Maharashtra,127,742880.02
+Returns centre,Dehradun,Uttarakhand,127,1225094.92
+Micro fulfilment centre,Raipur,Chhattisgarh,126,1889601.8900000001
+Sortation centre,Mohali,Punjab,126,512016.37
+Dark store,Tirupati,Andhra pradesh,123,752096.11
+Fulfilment centre,Bhubaneswar,Odisha,123,1111424.63
+Dark store,Nashik,Maharashtra,122,417096.18999999994
+Returns centre,Ranchi,Jharkhand,120,1122266.84
+Dark store,Mangaluru,Karnataka,119,730884.22
+Warehouse,Nagpur,Maharashtra,119,1149429.6800000002
+Warehouse,Bilaspur,Chhattisgarh,117,897849.64
+Distribution centre,Hyderabad,Telangana,117,764469.93
+Delivery hub,Visakhapatnam,Andhra pradesh,116,700601.51
+Dark store,Dehradun,Uttarakhand,116,922297.5800000001
+Distribution centre,Dibrugarh,Assam,116,637459.44
+Sortation centre,Howrah,West bengal,116,1050383.35
+Delivery station,Mohali,Punjab,115,843418.78
+Warehouse,Patna,Bihar,115,1487512.0
+Seller warehouse,Ranchi,Jharkhand,113,959890.73
+Dark store,Panaji,Goa,112,1840144.65
+Returns centre,Jodhpur,Rajasthan,111,1203111.8900000001
+Dark store,Margao,Goa,110,680493.48
+Sortation centre,Amritsar,Punjab,109,490956.11
+Fulfilment centre,Bengaluru,Karnataka,109,627096.01
+Fulfilment centre,Faridabad,Haryana,107,535249.94
+Fulfilment centre,Udaipur,Rajasthan,107,1328169.92
+Sortation centre,Udaipur,Rajasthan,107,890621.18
+Dark store,Kota,Rajasthan,106,827313.75
+Warehouse,Vadodara,Gujarat,105,949148.14
+Fulfilment centre,Varanasi,Uttar pradesh,104,1215715.46
+Sortation centre,Kota,Rajasthan,104,981366.52
+Sortation centre,Panipat,Haryana,104,611196.76
+Delivery hub,Patna,Bihar,102,976503.1799999999
+Dark store,Pune,Maharashtra,101,304399.66
+Sortation centre,New delhi,Delhi,101,696751.03
+Seller warehouse,Hyderabad,Telangana,100,795451.01
+Micro fulfilment centre,Nashik,Maharashtra,100,804375.66
+Fulfilment centre,Siliguri,West bengal,100,910762.91
+Returns centre,Mysuru,Karnataka,100,1078727.65
+Sortation centre,Jabalpur,Madhya pradesh,99,790697.02
+Warehouse,Kanpur,Uttar pradesh,98,710957.5700000001
+Fulfilment centre,Raipur,Chhattisgarh,97,1200959.96
+Fulfilment centre,Lucknow,Uttar pradesh,96,534423.24
+Fulfilment centre,Surat,Gujarat,96,531547.24
+Returns centre,Siliguri,West bengal,95,911041.1200000001
+Micro fulfilment centre,Visakhapatnam,Andhra pradesh,94,1189454.66
+Micro fulfilment centre,Noida,Uttar pradesh,94,695943.45
+Dark store,Agra,Uttar pradesh,94,1124780.23
+Sortation centre,Bengaluru,Karnataka,93,1014011.94
+Dark store,Rohini,Delhi,93,884060.46
+Micro fulfilment centre,Warangal,Telangana,93,851076.49
+Dark store,Bengaluru,Karnataka,92,668078.18
+Dark store,Rourkela,Odisha,91,413931.41000000003
+Micro fulfilment centre,Jaipur,Rajasthan,91,689918.1599999999
+Warehouse,Shimla,Himachal pradesh,90,1006075.9
+Fulfilment centre,Vijayawada,Andhra pradesh,90,912419.51
+Warehouse,Dehradun,Uttarakhand,90,953500.16
+Dark store,Nagpur,Maharashtra,89,1065121.71
+Delivery hub,Dehradun,Uttarakhand,88,804387.3500000001
+Warehouse,Warangal,Telangana,86,1241818.4500000002
+Sortation centre,Ranchi,Jharkhand,86,751507.27
+Warehouse,Tiruchirappalli,Tamil nadu,86,556493.62
+Delivery hub,Amritsar,Punjab,84,816888.76
+Sortation centre,Ahmedabad,Gujarat,83,618188.63
+Warehouse,Dibrugarh,Assam,82,448235.57
+Warehouse,Bhubaneswar,Odisha,81,220423.78
+Dark store,Mumbai,Maharashtra,81,655118.86
+Dark store,Kochi,Kerala,81,740880.24
+Warehouse,Madurai,Tamil nadu,80,348538.28
+Delivery hub,Shimla,Himachal pradesh,80,331902.99
+Fulfilment centre,Vadodara,Gujarat,79,1107784.61
+Sortation centre,Jaipur,Rajasthan,79,778802.3200000001
+Delivery station,Patna,Bihar,79,547537.62
+Distribution centre,Jabalpur,Madhya pradesh,79,533186.99
+Fulfilment centre,Kanpur,Uttar pradesh,79,740200.78
+Warehouse,Tirupati,Andhra pradesh,79,402392.07999999996
+Micro fulfilment centre,Rourkela,Odisha,79,538390.62
+Sortation centre,Bhopal,Madhya pradesh,79,501348.99
+Seller warehouse,Indore,Madhya pradesh,78,1017986.34
+Micro fulfilment centre,Jodhpur,Rajasthan,78,436317.49
+Sortation centre,Noida,Uttar pradesh,78,498014.24
+Dark store,Panipat,Haryana,77,198579.03
+Sortation centre,Thiruvananthapuram,Kerala,77,643013.4
+Micro fulfilment centre,Siliguri,West bengal,77,862245.38
+Fulfilment centre,Mohali,Punjab,76,103003.71
+Fulfilment centre,Durgapur,West bengal,76,128600.24
+Sortation centre,Mysuru,Karnataka,76,554507.5399999999
+Fulfilment centre,Noida,Uttar pradesh,76,241521.90000000002
+Micro fulfilment centre,Rajkot,Gujarat,76,680367.2
+Delivery hub,Thiruvananthapuram,Kerala,75,601291.0800000001
+Warehouse,Mohali,Punjab,75,566854.16
+Sortation centre,Dehradun,Uttarakhand,75,199145.44
+Sortation centre,Durgapur,West bengal,75,830899.86
+Sortation centre,Dwarka,Delhi,75,988266.0
+Warehouse,Margao,Goa,75,401845.19
+Micro fulfilment centre,Cuttack,Odisha,75,330428.03
+Seller warehouse,Pune,Maharashtra,75,299418.67
+Sortation centre,Rourkela,Odisha,74,1010493.68
+Distribution centre,Ahmedabad,Gujarat,74,761737.03
+Dark store,Faridabad,Haryana,74,585414.21
+Micro fulfilment centre,Vijayawada,Andhra pradesh,74,226573.98
+Micro fulfilment centre,Amritsar,Punjab,73,637449.3
+Sortation centre,Jamshedpur,Jharkhand,73,136172.34000000003
+Dark store,Jabalpur,Madhya pradesh,73,725024.73
+Micro fulfilment centre,Kozhikode,Kerala,73,1208532.34
+Dark store,Patna,Bihar,72,777330.96
+Delivery station,Gaya,Bihar,72,174815.14
+Dark store,Vadodara,Gujarat,72,1001764.97
+Warehouse,Vijayawada,Andhra pradesh,72,117381.89
+Seller warehouse,Siliguri,West bengal,72,685155.73
+Dark store,Noida,Uttar pradesh,71,244055.4
+Warehouse,Varanasi,Uttar pradesh,71,620581.82
+Fulfilment centre,Jodhpur,Rajasthan,71,415042.14
+Fulfilment centre,Jamshedpur,Jharkhand,70,961082.1100000001
+Delivery station,Hyderabad,Telangana,70,567609.77
+Micro fulfilment centre,Agra,Uttar pradesh,70,780940.76
+Delivery hub,Dwarka,Delhi,70,1111925.05
+Seller warehouse,Baddi,Himachal pradesh,70,82971.84
+Sortation centre,Patna,Bihar,69,994156.9
+Delivery hub,Tiruchirappalli,Tamil nadu,69,1082421.06
+Seller warehouse,Bilaspur,Chhattisgarh,69,347322.07999999996
+Returns centre,Hyderabad,Telangana,69,1044703.98
+Returns centre,Bilaspur,Chhattisgarh,68,553530.46
+Dark store,Coimbatore,Tamil nadu,68,215613.16999999998
+Warehouse,Jaipur,Rajasthan,67,630114.73
+Warehouse,Gurugram,Haryana,67,584633.83
+Fulfilment centre,Gurugram,Haryana,67,390294.82
+Fulfilment centre,Baddi,Haryana,67,965301.15
+Delivery station,Udaipur,Rajasthan,67,263250.67
+Micro fulfilment centre,Hyderabad,Telangana,66,589186.24
+Returns centre,Surat,Gujarat,66,781311.76
+Delivery hub,Rohini,Delhi,66,247964.11
+Fulfilment centre,Coimbatore,Tamil nadu,65,380654.27
+Delivery station,Ranchi,Jharkhand,65,708794.45
+Micro fulfilment centre,Gurugram,Haryana,64,227135.19
+Distribution centre,Bilaspur,Uttar pradesh,64,70522.37
+Seller warehouse,Mangaluru,Karnataka,64,261663.23
+Sortation centre,Varanasi,Uttar pradesh,64,364922.18
+Fulfilment centre,Thiruvananthapuram,Kerala,64,300447.39
+Warehouse,Rohini,Delhi,63,767721.4
+Returns centre,Kozhikode,Kerala,63,518838.26
+Delivery station,Warangal,Telangana,63,203235.48
+Distribution centre,Pune,Maharashtra,63,695552.26
+Delivery hub,Durgapur,West bengal,63,595146.96
+Delivery station,Vijayawada,Andhra pradesh,63,576406.84
+Returns centre,Durgapur,West bengal,63,352593.01
+Sortation centre,Gurugram,Haryana,62,214419.0
+Warehouse,Haridwar,Uttarakhand,62,472397.46
+Sortation centre,Dehradun,Punjab,62,839266.04
+Seller warehouse,Kanpur,Uttar pradesh,62,877493.38
+Delivery hub,Ranchi,Jharkhand,62,677783.38
+Dark store,Kanpur,Uttar pradesh,61,722897.89
+Sortation centre,Lucknow,Uttar pradesh,61,1022104.96
+Delivery hub,Haridwar,Uttarakhand,61,276689.29
+Warehouse,Kota,Rajasthan,61,291804.45999999996
+Micro fulfilment centre,Tiruchirappalli,Tamil nadu,61,342371.07
+Warehouse,Kochi,Kerala,61,759259.64
+Dark store,Bhopal,Madhya pradesh,60,227329.66999999998
+Warehouse,Udaipur,Rajasthan,60,220676.49
+Seller warehouse,Panipat,Haryana,60,796410.13
+Seller warehouse,Agra,Uttar pradesh,59,555523.23
+Returns centre,Nagpur,Maharashtra,58,489312.36
+Fulfilment centre,Chennai,Tamil nadu,58,616447.44
+Fulfilment centre,Ahmedabad,Gujarat,58,862868.76
+Fulfilment centre,Visakhapatnam,Andhra pradesh,57,286287.52
+Distribution centre,Jamshedpur,Jharkhand,57,569155.49
+Returns centre,Visakhapatnam,Andhra pradesh,57,740267.32
+Delivery hub,Agra,Uttar pradesh,56,544152.73
+Delivery hub,Mangaluru,Karnataka,56,269154.57
+Micro fulfilment centre,Bhubaneswar,Odisha,56,78961.56
+Warehouse,Kolkata,West bengal,56,557862.48
+Dark store,Bhubaneswar,Odisha,56,613229.4
+Delivery station,Jodhpur,Rajasthan,56,700592.76
+Warehouse,New delhi,Delhi,56,584769.35
+Distribution centre,Baddi,Himachal pradesh,56,559724.41
+Micro fulfilment centre,Vadodara,Gujarat,55,818132.47
+Warehouse,Lucknow,Uttar pradesh,55,503963.46
+Sortation centre,Visakhapatnam,Andhra pradesh,55,617801.36
+Distribution centre,Kochi,Kerala,54,93870.14
+Fulfilment centre,Kochi,Kerala,54,582857.3300000001
+Returns centre,Dwarka,Delhi,54,229246.17
+Delivery hub,Ludhiana,Punjab,53,304075.24
+Delivery station,Mysuru,Karnataka,53,372070.18
+Returns centre,Baddi,West bengal,53,505895.08
+Warehouse,Mumbai,Maharashtra,53,504292.01
+Dark store,Dwarka,Delhi,53,639694.05
+Returns centre,Guwahati,Assam,52,238840.68
+Returns centre,Kochi,Kerala,52,455144.92
+Delivery station,Rohini,Delhi,52,558952.99
+Warehouse,Indore,Madhya pradesh,51,892193.64
+Sortation centre,Thane,Maharashtra,51,416697.58
+Fulfilment centre,Pune,Maharashtra,51,136840.65
+Dark store,Dibrugarh,Odisha,50,599649.38
+Warehouse,Noida,Uttar pradesh,50,157102.39
+Fulfilment centre,Jabalpur,Madhya pradesh,49,873073.18
+Distribution centre,Kota,Rajasthan,49,325328.79
+Micro fulfilment centre,Bengaluru,Karnataka,48,422155.15
+Distribution centre,Chennai,Tamil nadu,48,419604.96
+Warehouse,Jamshedpur,Jharkhand,48,239945.23
+Delivery hub,Warangal,Telangana,47,360254.51
+Distribution centre,Bengaluru,Karnataka,47,169511.49
+Returns centre,Bengaluru,Karnataka,46,498371.12
+Fulfilment centre,Thane,Maharashtra,45,492575.47
+Dark store,Tiruchirappalli,Tamil nadu,45,804215.36
+Dark store,Ludhiana,Punjab,45,468093.6
+Delivery station,Ahmedabad,Gujarat,44,75443.46
+Seller warehouse,Bhopal,Madhya pradesh,44,530921.95
+Warehouse,Panaji,Goa,44,583068.21
+Micro fulfilment centre,Chennai,Tamil nadu,43,522798.69
+Returns centre,Kota,Rajasthan,43,756831.4
+Distribution centre,Amritsar,Punjab,43,448994.2
+Returns centre,Thiruvananthapuram,Kerala,42,314293.39
+Seller warehouse,Dwarka,Delhi,42,59777.3
+Micro fulfilment centre,Margao,Goa,41,355520.18
+Micro fulfilment centre,Udaipur,Rajasthan,41,347941.52
+Seller warehouse,Gaya,Bihar,41,415446.35
+Sortation centre,Faridabad,Haryana,41,597558.97
+Distribution centre,Mangaluru,Karnataka,40,173074.82
+Warehouse,Bengaluru,Karnataka,40,299996.99
+Delivery station,Guwahati,Assam,40,205435.48
+Returns centre,Gurugram,Haryana,39,242501.88
+Distribution centre,Dwarka,Delhi,39,518465.69
+Sortation centre,Rajkot,Gujarat,39,454785.18
+Delivery station,Coimbatore,Tamil nadu,39,193376.0
+Sortation centre,Siliguri,West bengal,39,511879.7
+Distribution centre,Mysuru,Karnataka,39,269884.32999999996
+Warehouse,Agra,Uttar pradesh,38,403167.31
+Dark store,Varanasi,Uttar pradesh,37,87864.79
+Dark store,Jaipur,Rajasthan,37,356731.11
+Micro fulfilment centre,Dwarka,Delhi,36,281140.12
+Seller warehouse,Panaji,Goa,36,74560.61
+Delivery station,Jamshedpur,Jharkhand,36,71416.8
+Delivery station,Margao,Goa,35,428930.15
+Micro fulfilment centre,Kochi,Kerala,35,405674.33
+Micro fulfilment centre,Surat,Gujarat,35,412763.75
+Fulfilment centre,Nashik,Maharashtra,35,117998.68
+Sortation centre,Tiruchirappalli,Tamil nadu,34,495012.46
+Distribution centre,Kozhikode,Kerala,34,333084.33
+Micro fulfilment centre,Shimla,Himachal pradesh,34,339819.5
+Seller warehouse,Faridabad,Haryana,34,197689.87
+Micro fulfilment centre,Thiruvananthapuram,Kerala,34,377827.33
+Delivery station,Lucknow,Uttar pradesh,34,370085.1
+Returns centre,Madurai,Tamil nadu,34,298776.26
+Distribution centre,Gaya,Bihar,34,599930.6
+Micro fulfilment centre,Lucknow,Uttar pradesh,33,237030.56
+Returns centre,Udaipur,Rajasthan,32,62821.6
+Seller warehouse,Dehradun,Uttarakhand,32,85009.40000000001
+Warehouse,Dibrugarh,Chhattisgarh,31,48631.68
+Micro fulfilment centre,Madurai,Tamil nadu,30,124423.24
+Seller warehouse,Haridwar,Uttarakhand,30,371482.74
+Delivery station,Varanasi,Uttar pradesh,30,445821.6
+Seller warehouse,Chennai,Tamil nadu,30,55146.04
+Distribution centre,Warangal,Telangana,28,365779.59
+Micro fulfilment centre,Panaji,Goa,28,271391.46
+Micro fulfilment centre,Dehradun,Uttarakhand,28,217746.0
+Distribution centre,Bhopal,Madhya pradesh,28,247675.36
+Delivery station,Raipur,Chhattisgarh,27,242550.88
+Dark store,Mysuru,Karnataka,27,105055.92
+Delivery station,Howrah,West bengal,27,204603.48
+Delivery station,Agra,Uttar pradesh,27,200515.76
+Warehouse,Visakhapatnam,Andhra pradesh,26,40127.78
+Returns centre,Ludhiana,Punjab,26,192356.68
+Distribution centre,Guwahati,Assam,26,61396.4
+Sortation centre,Kochi,Kerala,25,284926.49
+Warehouse,Jamshedpur,Assam,25,214893.6
+Dark store,Rajkot,Gujarat,25,289200.78
+Seller warehouse,Kozhikode,Kerala,24,163981.06
+Delivery station,Chennai,Tamil nadu,23,189683.94
+Sortation centre,Gaya,Bihar,23,177030.72
+Micro fulfilment centre,Ludhiana,Punjab,23,72956.3
+Micro fulfilment centre,Mumbai,Maharashtra,23,293968.36
+Dark store,Dibrugarh,Haryana,23,50739.43
+Warehouse,Jabalpur,Madhya pradesh,23,37567.19
+Fulfilment centre,Dehradun,Uttarakhand,23,349549.28
+Warehouse,Thiruvananthapuram,Kerala,23,137275.02
+Micro fulfilment centre,Kota,Rajasthan,22,331263.9
+Delivery hub,Baddi,Himachal pradesh,22,123844.51
+Micro fulfilment centre,Indore,Madhya pradesh,22,195611.24
+Warehouse,Rajkot,Gujarat,22,270424.66
+Seller warehouse,Gurugram,Haryana,22,87791.67
+Delivery hub,Chennai,Tamil nadu,21,266631.12
+Returns centre,Tirupati,Andhra pradesh,21,268629.09
+Warehouse,Baddi,Himachal pradesh,21,239567.87
+Distribution centre,Panaji,Goa,20,185119.4
+Fulfilment centre,Mumbai,Maharashtra,19,261888.24
+Fulfilment centre,Ludhiana,Punjab,19,237833.63
+Seller warehouse,Lucknow,Uttar pradesh,19,89085.68
+Distribution centre,Raipur,Chhattisgarh,18,55893.06
+Micro fulfilment centre,Panipat,Haryana,18,266673.78
+Returns centre,Rourkela,Odisha,18,87684.38
+Warehouse,Mysuru,Karnataka,17,70430.15
+Delivery station,Dwarka,Delhi,17,302220.9
+Warehouse,Amritsar,Punjab,17,218569.74
+Warehouse,Jamshedpur,West bengal,16,138796.57
+Warehouse,Kozhikode,Kerala,16,208433.41
+Sortation centre,Raipur,Chhattisgarh,15,65723.9
+Distribution centre,Patna,Bihar,15,30022.11
+Returns centre,Patna,Bihar,15,48330.66
+Warehouse,Ahmedabad,Gujarat,15,182557.08
+Warehouse,Thane,Maharashtra,14,139986.62
+Micro fulfilment centre,Baddi,Uttarakhand,14,75777.63
+Delivery station,Durgapur,West bengal,14,107392.5
+Delivery hub,Panaji,Goa,14,46010.82
+Sortation centre,Nagpur,Maharashtra,13,59540.83
+Micro fulfilment centre,Dibrugarh,Assam,13,44474.23
+Delivery hub,New delhi,Delhi,13,99215.87
+Sortation centre,Ludhiana,Punjab,13,133308.56
+Warehouse,Nashik,Maharashtra,12,128068.45
+Dark store,Dibrugarh,Telangana,12,111183.39
+Delivery station,Vadodara,Gujarat,11,14086.95
+Returns centre,Dibrugarh,Assam,11,69795.0
+Seller warehouse,Shimla,Himachal pradesh,10,108526.4
+Dark store,Amritsar,Punjab,10,62769.04
+Micro fulfilment centre,Dehradun,Haryana,9,100335.7
+Fulfilment centre,Madurai,Tamil nadu,9,56621.88
+Micro fulfilment centre,Ahmedabad,Gujarat,9,91845.55
+Distribution centre,Cuttack,Odisha,9,151012.07
+Returns centre,Margao,Goa,8,75201.39
+Seller warehouse,Noida,Uttar pradesh,8,81709.99
+Delivery station,Baddi,Himachal pradesh,8,96516.46
+Seller warehouse,Mohali,Punjab,8,73239.6
+Seller warehouse,Amritsar,Punjab,7,91721.42
+Sortation centre,Shimla,Himachal pradesh,7,73512.79
+Delivery station,Bengaluru,Karnataka,6,43816.3
+Fulfilment centre,Patna,Bihar,6,41281.66
+Dark store,Udaipur,Rajasthan,6,16784.04
+Sortation centre,Agra,Uttar pradesh,5,67769.94
+Dark store,Gurugram,Haryana,5,37255.25
+Warehouse,Baddi,Andhra pradesh,5,47989.68
+Delivery hub,Nashik,Maharashtra,4,40339.24
+Sortation centre,Kanpur,Uttar pradesh,4,30363.59
+Seller warehouse,Nagpur,Maharashtra,4,33963.0
+Delivery station,Rajkot,Gujarat,4,29022.11
+Seller warehouse,Ludhiana,Punjab,3,21624.77
+Returns centre,Haridwar,Uttarakhand,3,34054.28
+Delivery hub,Bhubaneswar,Odisha,3,36706.89
+Warehouse,Panipat,Haryana,1,3632.25
+Fulfilment centre,Agra,Uttar pradesh,1,10117.17
+Distribution centre,Rourkela,Odisha,1,5756.86
