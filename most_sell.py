@@ -187,33 +187,25 @@ make_chart(
     file_name="top_product_by_revenue.png"
 )
 
-# ---------------------------------------------
 # STEP 3: Style (bold text + bright colors)
-# ---------------------------------------------
 sns.set_theme(style="whitegrid")
 plt.rcParams["font.weight"] = "bold"
 plt.rcParams["axes.labelweight"] = "bold"
 plt.rcParams["axes.titleweight"] = "bold"
 
-# ---------------------------------------------
 # STEP 4: Load data
-# ---------------------------------------------
 df = pd.read_csv("data/processed/cleaned_data.csv")
 
 df["quantity_sold"] = pd.to_numeric(df["quantity_sold"], errors="coerce")
 df["sales_revenue_inr"] = pd.to_numeric(df["sales_revenue_inr"], errors="coerce")
 
-# ---------------------------------------------
 # STEP 5: Keep only School backpack rows
-# ---------------------------------------------
 # str.contains finds the name even if capital letters or spaces differ
 backpack = df[df["product_name"].str.contains("school backpack", case=False, na=False)]
 
 print("Rows found:", len(backpack))
 
-# ---------------------------------------------
 # STEP 6: Where is School backpack sold the most?
-# ---------------------------------------------
 result = backpack.groupby(
     ["facility_type", "warehouse_city", "warehouse_state"], as_index=False
 ).agg(
@@ -234,9 +226,7 @@ print("Quantity sold :", best["quantity_sold"])
 
 result.to_csv(f"{folder}/school_backpack_by_location.csv", index=False)
 
-# ---------------------------------------------
 # STEP 7: Graph of the top 10 locations
-# ---------------------------------------------
 top10 = result.head(10).copy()
 top10["location"] = top10["warehouse_city"] + ", " + top10["warehouse_state"]
 
