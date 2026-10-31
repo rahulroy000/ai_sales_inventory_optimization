@@ -252,3 +252,332 @@ plt.tight_layout()
 plt.savefig(f"{folder}/school_backpack_by_location.png", dpi=300, bbox_inches="tight", facecolor="white")
 plt.show()
 plt.close()
+
+
+
+#Monthly Sales Quantity Heatmap
+
+
+# STEP 1: Make the output folder
+folder = "outputs/most_sell"
+os.makedirs(folder, exist_ok=True)
+
+# STEP 2: Style settings (bold text + bright colors)
+sns.set_theme(style="whitegrid")
+plt.rcParams["font.weight"] = "bold"
+plt.rcParams["axes.labelweight"] = "bold"
+plt.rcParams["axes.titleweight"] = "bold"
+
+# STEP 3: Load and prepare data
+df = pd.read_csv("data/processed/cleaned_data.csv")
+
+df["date"] = pd.to_datetime(df["date"], errors="coerce")
+df["quantity_sold"] = pd.to_numeric(
+    df["quantity_sold"], errors="coerce"
+)
+
+df = df.dropna(
+    subset=["date", "category", "quantity_sold"]
+)
+
+# STEP 4: Create month column
+df["month"] = df["date"].dt.strftime("%b")
+
+# STEP 5: Calculate monthly sales quantity by category
+monthly_quantity = df.groupby(
+    ["category", "month"], as_index=False
+).agg(
+    total_quantity=("quantity_sold", "sum")
+)
+
+print("\nMONTHLY SALES QUANTITY BY CATEGORY")
+print(monthly_quantity.to_string(index=False))
+
+# STEP 6: Create Pivot Table
+heatmap_data = monthly_quantity.pivot(
+    index="category",
+    columns="month",
+    values="total_quantity"
+).fillna(0)
+
+# Arrange months in correct order
+month_order = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+]
+
+heatmap_data = heatmap_data.reindex(
+    columns=[
+        month for month in month_order
+        if month in heatmap_data.columns
+    ]
+)
+
+# STEP 7: Draw Heatmap
+plt.figure(figsize=(15, 8))
+
+sns.heatmap(
+    data=heatmap_data,
+    annot=True,
+    fmt=",.0f",
+    cmap="YlOrRd",
+    linewidths=1,
+    linecolor="black",
+    cbar_kws={"label": "Total Quantity Sold"},
+    annot_kws={"size": 11, "weight": "bold"}
+)
+
+plt.title(
+    "Monthly Sales Quantity Heatmap by Product Category",
+    fontsize=20,
+    fontweight="bold",
+    pad=20
+)
+
+plt.xlabel("Month", fontsize=14)
+plt.ylabel("Product Category", fontsize=14)
+
+plt.xticks(rotation=0, fontsize=12)
+plt.yticks(rotation=0, fontsize=12)
+
+plt.tight_layout()
+
+# STEP 8: Save first, then show
+plt.savefig(
+    f"{folder}/monthly_sales_quantity_heatmap.png",
+    dpi=300,
+    bbox_inches="tight",
+    facecolor="white"
+)
+
+plt.show()
+plt.close()
+
+
+# Monthly Revenue Heatmap
+
+
+# STEP 1: Make the output folder
+folder = "outputs/most_sell"
+os.makedirs(folder, exist_ok=True)
+
+# STEP 2: Style settings (bold text + bright colors)
+sns.set_theme(style="whitegrid")
+plt.rcParams["font.weight"] = "bold"
+plt.rcParams["axes.labelweight"] = "bold"
+plt.rcParams["axes.titleweight"] = "bold"
+
+# STEP 3: Load and prepare data
+df = pd.read_csv("data/processed/cleaned_data.csv")
+
+df["date"] = pd.to_datetime(df["date"], errors="coerce")
+df["sales_revenue_inr"] = pd.to_numeric(
+    df["sales_revenue_inr"], errors="coerce"
+)
+
+df = df.dropna(
+    subset=["date", "category", "sales_revenue_inr"]
+)
+
+# STEP 4: Create month column
+df["month"] = df["date"].dt.strftime("%b")
+
+# STEP 5: Calculate monthly revenue by category
+monthly_revenue = df.groupby(
+    ["category", "month"], as_index=False
+).agg(
+    total_revenue=("sales_revenue_inr", "sum")
+)
+
+print("\nMONTHLY REVENUE BY PRODUCT CATEGORY")
+print(monthly_revenue.to_string(index=False))
+
+# STEP 6: Create Pivot Table
+heatmap_data = monthly_revenue.pivot(
+    index="category",
+    columns="month",
+    values="total_revenue"
+).fillna(0)
+
+# Arrange months in correct order
+month_order = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+]
+
+heatmap_data = heatmap_data.reindex(
+    columns=[
+        month for month in month_order
+        if month in heatmap_data.columns
+    ]
+)
+
+# STEP 7: Draw Heatmap
+plt.figure(figsize=(15, 8))
+
+sns.heatmap(
+    data=heatmap_data,
+    annot=True,
+    fmt=",.0f",
+    cmap="YlGnBu",
+    linewidths=1,
+    linecolor="black",
+    cbar_kws={"label": "Sales Revenue (INR)"},
+    annot_kws={"size": 11, "weight": "bold"}
+)
+
+plt.title(
+    "Monthly Revenue Heatmap by Product Category",
+    fontsize=20,
+    fontweight="bold",
+    pad=20
+)
+
+plt.xlabel("Month", fontsize=14)
+plt.ylabel("Product Category", fontsize=14)
+
+plt.xticks(rotation=0, fontsize=12)
+plt.yticks(rotation=0, fontsize=12)
+
+plt.tight_layout()
+
+# STEP 8: Save first, then show
+plt.savefig(
+    f"{folder}/monthly_revenue_heatmap.png",
+    dpi=300,
+    bbox_inches="tight",
+    facecolor="white"
+)
+
+plt.show()
+plt.close()
+
+# Inventory Risk Heatmap
+
+# STEP 1: Make the output folder
+folder = "outputs/inventory"
+os.makedirs(folder, exist_ok=True)
+
+# STEP 2: Style settings (bold text + bright colors)
+sns.set_theme(style="whitegrid")
+plt.rcParams["font.weight"] = "bold"
+plt.rcParams["axes.labelweight"] = "bold"
+plt.rcParams["axes.titleweight"] = "bold"
+
+# STEP 3: Load and prepare data
+df = pd.read_csv("data/processed/cleaned_data.csv")
+
+numeric_columns = [
+    "current_stock",
+    "reorder_level",
+    "safety_stock",
+    "lead_time_days"
+]
+
+for column in numeric_columns:
+    df[column] = pd.to_numeric(
+        df[column], errors="coerce"
+    )
+
+df = df.dropna(
+    subset=[
+        "product_name",
+        "category",
+        "current_stock",
+        "reorder_level",
+        "safety_stock",
+        "lead_time_days"
+    ]
+)
+
+# STEP 4: Calculate inventory risk
+inventory = df.groupby(
+    ["category", "product_name"], as_index=False
+).agg(
+    current_stock=("current_stock", "mean"),
+    reorder_level=("reorder_level", "mean"),
+    safety_stock=("safety_stock", "mean"),
+    lead_time_days=("lead_time_days", "mean")
+)
+
+# STEP 5: Identify inventory risk
+inventory["stock_status"] = "Healthy"
+
+inventory.loc[
+    inventory["current_stock"] <= inventory["reorder_level"],
+    "stock_status"
+] = "High Risk"
+
+inventory.loc[
+    (inventory["current_stock"] > inventory["reorder_level"]) &
+    (inventory["current_stock"] <=
+     inventory["reorder_level"] + inventory["safety_stock"]),
+    "stock_status"
+] = "Medium Risk"
+
+print("\nINVENTORY RISK ANALYSIS")
+print(inventory.to_string(index=False))
+
+# STEP 6: Select Top 15 products with lowest stock
+top15 = inventory.sort_values(
+    "current_stock",
+    ascending=True
+).head(15).copy()
+
+print("\nTOP 15 PRODUCTS WITH LOWEST STOCK")
+print(top15.to_string(index=False))
+
+# Save inventory risk table
+top15.to_csv(
+    f"{folder}/inventory_risk_analysis.csv",
+    index=False
+)
+
+# STEP 7: Create Pivot Table
+heatmap_data = top15.pivot_table(
+    index="category",
+    columns="product_name",
+    values="current_stock",
+    aggfunc="mean",
+    fill_value=0
+)
+
+# STEP 8: Draw Heatmap
+plt.figure(figsize=(18, 9))
+
+sns.heatmap(
+    data=heatmap_data,
+    annot=True,
+    fmt=",.0f",
+    cmap="RdYlGn",
+    linewidths=1,
+    linecolor="black",
+    cbar_kws={"label": "Current Stock"},
+    annot_kws={"size": 10, "weight": "bold"}
+)
+
+plt.title(
+    "Inventory Risk Heatmap - Top 15 Low Stock Products",
+    fontsize=20,
+    fontweight="bold",
+    pad=20
+)
+
+plt.xlabel("Product Name", fontsize=14)
+plt.ylabel("Product Category", fontsize=14)
+
+plt.xticks(rotation=45, ha="right", fontsize=10)
+plt.yticks(rotation=0, fontsize=12)
+
+plt.tight_layout()
+
+# STEP 9: Save first, then show
+plt.savefig(
+    f"{folder}/inventory_risk_heatmap.png",
+    dpi=300,
+    bbox_inches="tight",
+    facecolor="white"
+)
+
+plt.show()
+plt.close()
