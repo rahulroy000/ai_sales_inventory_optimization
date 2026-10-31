@@ -1,0 +1,9 @@
+logistics_partner,average_delivery_days,fastest_delivery_days,slowest_delivery_days,average_shipping_distance,total_orders
+India post,2.03,0,6,824.44,102
+Ekart,2.04,0,5,839.53,90
+Blue dart,2.05,0,7,857.32,106
+Delhivery,2.1,0,6,865.12,134
+Ecom express,2.2,0,6,924.55,129
+Amazon logistics,2.27,-3,6,876.99,99
+Xpressbees,2.31,0,7,888.82,115
+Shadowfax,2.47,0,7,969.02,118

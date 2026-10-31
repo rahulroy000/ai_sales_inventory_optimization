@@ -1,0 +1,16 @@
+category,product_name,current_stock,reorder_level,safety_stock,lead_time_days,stock_status
+Electronics,Mixer grinder,8.0,150.0,26.0,7.0,High Risk
+Electronics,Toothpaste 150 g,16.0,34.0,62.0,6.0,High Risk
+Stationery,Sanitary pads pack,31.0,95.0,123.0,1.0,High Risk
+Stationery,Non-stick pan,36.0,198.0,121.0,6.0,High Risk
+Personal care,Kurta,52.0,88.0,19.0,13.0,High Risk
+Home & kitchen,Socks pack,52.0,141.0,113.0,10.0,High Risk
+Home & kitchen,Bluetooth speaker,102.0,35.0,55.0,2.1,Healthy
+Electronics,Tea 500 g,115.5,213.5,66.5,6.5,High Risk
+Electronics,School backpack,190.0,208.5,93.0,6.0,High Risk
+Stationery,Baby diapers pack,199.0,99.0,116.5,8.0,Medium Risk
+Fashion,Toothpaste 150 g,204.5,147.0,25.0,5.0,Healthy
+Electronics,Pressure cooker 3 l,206.0,276.0,48.0,12.0,High Risk
+Stationery,Storage container set,221.0,35.0,86.0,7.0,Healthy
+Stationery,Infant formula pack,229.0,215.0,20.0,13.0,Medium Risk
+Personal care,Stainless steel bottle,249.5,219.0,104.5,4.5,Medium Risk
