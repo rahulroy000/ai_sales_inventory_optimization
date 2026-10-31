@@ -10,5 +10,8 @@ seaborn
 # Machine learning
 scikit-learn
 
+# Interactive web dashboard
+streamlit
+
 # Install cmd
 # pip install -r requirements.txt
